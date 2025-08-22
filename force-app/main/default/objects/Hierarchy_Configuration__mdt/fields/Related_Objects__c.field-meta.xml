@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Objects__c</fullName>
+    <description>JSON configuration for related objects. Format: [{&quot;objectApiName&quot;:&quot;Opportunity&quot;,&quot;relationshipField&quot;:&quot;AccountId&quot;,&quot;nameField&quot;:&quot;Name&quot;,&quot;subtitleField&quot;:&quot;StageName&quot;,&quot;iconName&quot;:&quot;standard:opportunity&quot;}]</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Related Objects</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

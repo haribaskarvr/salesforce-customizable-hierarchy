@@ -1,0 +1,26 @@
+<template>
+    <lightning-card>
+        <template if:true={isLoading}>
+            <lightning-spinner size="small" variant="brand" alternative-text="Loading..."></lightning-spinner>
+        </template>
+
+        <div class="canvas-container" style={canvasStyle}>
+            <div class="zoom-controls">
+                <lightning-button-icon class="zoom-btn zoom-in" onclick={handleZoomIn} title="Zoom In" variant="bare"
+                    alternative-text="Zoom In" aria-label="Zoom In" icon-name="utility:add">
+                </lightning-button-icon>
+                <lightning-button-icon class="zoom-btn zoom-out" onclick={handleZoomOut} title="Zoom Out" variant="bare"
+                    alternative-text="Zoom Out" aria-label="Zoom Out" icon-name="utility:dash">
+                </lightning-button-icon>
+                <lightning-button-icon class="zoom-btn zoom-reset" onclick={handleZoomReset} title="Reset Zoom"
+                    variant="bare" alternative-text="Reset Zoom" aria-label="Reset Zoom" icon-name="utility:refresh">
+                </lightning-button-icon>
+                <div class="zoom-level">{zoomPercentage}%</div>
+            </div>
+
+            <div class="hierarchy-canvas" onmousedown={handleCanvasMouseDown} onmousemove={handleCanvasMouseMove}
+                onmouseup={handleCanvasMouseUp} onmouseleave={handleCanvasMouseLeave}>
+            </div>
+        </div>
+    </lightning-card>
+</template>

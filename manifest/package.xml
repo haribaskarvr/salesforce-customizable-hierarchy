@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>HierarchyCanvasController</members>
+        <members>HierarchyCanvasControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>hierarchyCanvas</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Hierarchy_Configuration__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Hierarchy_Configuration.Account_Hierarchy</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Hierarchy_Configuration__mdt.Field1_API_Name__c</members>
+        <members>Hierarchy_Configuration__mdt.Field1_Label__c</members>
+        <members>Hierarchy_Configuration__mdt.Field2_API_Name__c</members>
+        <members>Hierarchy_Configuration__mdt.Field2_Label__c</members>
+        <members>Hierarchy_Configuration__mdt.Icon_Name__c</members>
+        <members>Hierarchy_Configuration__mdt.Include_Related_Objects__c</members>
+        <members>Hierarchy_Configuration__mdt.Max_Records__c</members>
+        <members>Hierarchy_Configuration__mdt.Object_API_Name__c</members>
+        <members>Hierarchy_Configuration__mdt.Parent_Field_API_Name__c</members>
+        <members>Hierarchy_Configuration__mdt.Related_Objects__c</members>
+        <members>Hierarchy_Configuration__mdt.Subtitle_Field__c</members>
+        <members>Hierarchy_Configuration__mdt.Title_Field__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>64.0</version>
+</Package>

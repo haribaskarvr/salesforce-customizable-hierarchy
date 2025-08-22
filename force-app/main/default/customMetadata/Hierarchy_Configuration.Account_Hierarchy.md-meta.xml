@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Account Hierarchy</label>
+    <protected>false</protected>
+    <values>
+        <field>Field1_API_Name__c</field>
+        <value xsi:type="xsd:string">Phone</value>
+    </values>
+    <values>
+        <field>Field1_Label__c</field>
+        <value xsi:type="xsd:string">Phone</value>
+    </values>
+    <values>
+        <field>Field2_API_Name__c</field>
+        <value xsi:type="xsd:string">Industry</value>
+    </values>
+    <values>
+        <field>Field2_Label__c</field>
+        <value xsi:type="xsd:string">Industry</value>
+    </values>
+    <values>
+        <field>Icon_Name__c</field>
+        <value xsi:type="xsd:string">standard:account</value>
+    </values>
+    <values>
+        <field>Include_Related_Objects__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Max_Records__c</field>
+        <value xsi:type="xsd:double">1000.0</value>
+    </values>
+    <values>
+        <field>Object_API_Name__c</field>
+        <value xsi:type="xsd:string">Account</value>
+    </values>
+    <values>
+        <field>Parent_Field_API_Name__c</field>
+        <value xsi:type="xsd:string">ParentId</value>
+    </values>
+    <values>
+        <field>Related_Objects__c</field>
+        <value xsi:type="xsd:string">[
+            {
+            &quot;objectApiName&quot;: &quot;Opportunity&quot;,
+            &quot;relationshipField&quot;: &quot;AccountId&quot;,
+            &quot;nameField&quot;: &quot;Name&quot;,
+            &quot;subtitleField&quot;: &quot;StageName&quot;,
+            &quot;iconName&quot;: &quot;standard:opportunity&quot;,
+            &quot;field1Label&quot;: &quot;Amount&quot;,
+            &quot;field1ApiName&quot;: &quot;Amount&quot;,
+            &quot;field2Label&quot;: &quot;Close Date&quot;,
+            &quot;field2ApiName&quot;: &quot;CloseDate&quot;
+            },
+            {
+            &quot;objectApiName&quot;: &quot;Contact&quot;,
+            &quot;relationshipField&quot;: &quot;AccountId&quot;,
+            &quot;nameField&quot;: &quot;Name&quot;,
+            &quot;subtitleField&quot;: &quot;Title&quot;,
+            &quot;iconName&quot;: &quot;standard:contact&quot;,
+            &quot;field1Label&quot;: &quot;Email&quot;,
+            &quot;field1ApiName&quot;: &quot;Email&quot;,
+            &quot;field2Label&quot;: &quot;Phone&quot;,
+            &quot;field2ApiName&quot;: &quot;Phone&quot;
+            },
+            {
+            &quot;objectApiName&quot;: &quot;Case&quot;,
+            &quot;relationshipField&quot;: &quot;AccountId&quot;,
+            &quot;nameField&quot;: &quot;Subject&quot;,
+            &quot;subtitleField&quot;: &quot;Status&quot;,
+            &quot;iconName&quot;: &quot;standard:case&quot;,
+            &quot;field1Label&quot;: &quot;Priority&quot;,
+            &quot;field1ApiName&quot;: &quot;Priority&quot;,
+            &quot;field2Label&quot;: &quot;Created Date&quot;,
+            &quot;field2ApiName&quot;: &quot;CreatedDate&quot;
+            },
+            {
+            &quot;objectApiName&quot;: &quot;Asset&quot;,
+            &quot;relationshipField&quot;: &quot;AccountId&quot;,
+            &quot;nameField&quot;: &quot;Name&quot;,
+            &quot;subtitleField&quot;: &quot;Status&quot;,
+            &quot;iconName&quot;: &quot;standard:asset&quot;,
+            &quot;field1Label&quot;: &quot;Serial Number&quot;,
+            &quot;field1ApiName&quot;: &quot;SerialNumber&quot;,
+            &quot;field2Label&quot;: &quot;Install Date&quot;,
+            &quot;field2ApiName&quot;: &quot;InstallDate&quot;
+            }
+            ]</value>
+    </values>
+    <values>
+        <field>Subtitle_Field__c</field>
+        <value xsi:type="xsd:string">Type</value>
+    </values>
+    <values>
+        <field>Title_Field__c</field>
+        <value xsi:type="xsd:string">Name</value>
+    </values>
+</CustomMetadata>
