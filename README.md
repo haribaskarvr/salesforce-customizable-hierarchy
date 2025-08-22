@@ -2,6 +2,12 @@
 
 A flexible Lightning Web Component that displays hierarchical data structures in Salesforce. This component allows you to visualize parent-child relationships for any Salesforce object with configurable display options.
 
+## Sample Visualization
+
+![Hierarchy Canvas Example](images/hierarchy-canvas-sample.png)
+
+*Example showing an Account hierarchy with Edge Communications at the top, branching down through subsidiaries like Dickenson plc and Pyramid Construction Inc., with further child accounts displayed in an interactive tree structure.*
+
 ## Features
 
 - **Configurable Object Support**: Works with any Salesforce object that has parent-child relationships
@@ -100,6 +106,10 @@ sf apex run test --test-level RunLocalTests --target-org myorg
 - Verify that users have appropriate field-level security permissions
 - Check that the Custom Metadata record Developer Name matches the component configuration
 - Confirm the specified icon name exists in SLDS icon library
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
